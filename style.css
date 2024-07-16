@@ -881,6 +881,14 @@ header {
 
 /*------------------------------------------CONTACT------------------------------------*/
 
+#contact {
+    grid-area: contact;
+    background-image: url("/images/background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
 .contact {
     display: flex;
     padding: 10rem 0;
