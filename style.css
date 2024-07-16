@@ -103,7 +103,12 @@ header {
 main {
     display: grid;
     grid-area: main;
-    grid-template-areas: "about about about" "services services services" "testimonials testimonials testimonials" "projects projects projects" "blogs blogs blogs" "contact contact contact";
+    grid-template-areas: "about about about"
+        "services services services"
+        "testimonials testimonials testimonials"
+        "projects projects projects"
+        "blogs blogs blogs"
+        "contact contact contact";
     grid-template-rows: auto;
     row-gap: 15rem;
 }
